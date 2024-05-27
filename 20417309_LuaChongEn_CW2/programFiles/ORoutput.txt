@@ -1,0 +1,43 @@
+
+--------------------------------------------
+
+Optimized Route - Floyd Warshall Algorithm
+
+--------------------------------------------
+
+Details of Optimized Route
+1. Waste at location must be >=50% to be visited and collected
+2. Distance from Waste Station to location must be <= 11km
+3. Time taken must be within 8 hours, or else location will not be visited
+
+Current Waste Levels: 
+Waste at Location 1: 88%
+Waste at Location 2: 0%
+Waste at Location 3: 69%
+Waste at Location 4: 76%
+Waste at Location 5: 80%
+Waste at Location 6: 55%
+Waste at Location 7: 21%
+Waste in KG at Location 1: 440kg
+Waste in KG at Location 2: 0kg
+Waste in KG at Location 3: 345kg
+Waste in KG at Location 4: 380kg
+Waste in KG at Location 5: 400kg
+Waste in KG at Location 6: 275kg
+Waste in KG at Location 7: 105kg
+
+Shortest Path from Waste Station to each location:
+Waste Station to Location 1: 3 km	Path: Waste Station -> Location 1
+Waste Station to Location 3: 9 km	Path: Waste Station -> Location 1 -> Location 3
+Waste Station to Location 4: 11 km	Path: Waste Station -> Location 1 -> Location 3 -> Location 4
+Waste Station to Location 5: Distance exceeds 11 km
+Waste Station to Location 6: 7 km	Path: Waste Station -> Location 7 -> Location 6
+
+Driver Wage for this trip: 120 MYR
+
+Total Distance for Visited Locations: 30 km
+Total Cost: 75 MYR
+Total Time: 6 hours
+Total Fuel Consumption: 60 Liters
+Cumulative total percentage of waste collected from all valid locations: 288%
+Total Waste Collected: 1440kg

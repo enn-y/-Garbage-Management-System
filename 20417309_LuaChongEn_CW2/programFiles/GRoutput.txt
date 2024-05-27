@@ -1,0 +1,51 @@
+
+----------------------------------
+
+Greedy Route - Dijkstra Algorithm
+
+----------------------------------
+
+Details of Greedy Route
+1. Waste at location must be >=30% to be visited and collected
+2. There is NO distance restriction for the location to be visited
+3. Time taken must be within 8 hours, or else location will not be visited
+
+Current Waste Levels: 
+Waste at Location 1: 88%
+Waste at Location 2: 0%
+Waste at Location 3: 69%
+Waste at Location 4: 76%
+Waste at Location 5: 80%
+Waste at Location 6: 55%
+Waste at Location 7: 21%
+Waste in KG at Location 1: 440kg
+Waste in KG at Location 2: 0kg
+Waste in KG at Location 3: 345kg
+Waste in KG at Location 4: 380kg
+Waste in KG at Location 5: 400kg
+Waste in KG at Location 6: 275kg
+Waste in KG at Location 7: 105kg
+
+Shortest Path from Waste Station to each location:
+Waste Station to Location 1: 3 km	Path: Waste Station -> Location 1
+Waste Station to Location 3: 9 km	Path: Waste Station -> Location 1 -> Location 3
+Waste Station to Location 4: 11 km	Path: Waste Station -> Location 1 -> Location 3 -> Location 4
+Waste Station to Location 5: 14 km	Path: Waste Station -> Location 7 -> Location 6 -> Location 5
+Waste Station to Location 6: 7 km	Path: Waste Station -> Location 7 -> Location 6
+
+**Total time exceeds 8 hours, refer to the locations below that can be visited within 8 hours**
+
+Locations that can be visited within 8 hours:
+Location 1
+Location 3
+Location 4
+Location 5
+
+Driver Wage for this trip: 160 MYR
+
+Total Distance for Visited Locations: 44 km
+Total Cost: 110 MYR
+Total Time: 8.8 hours
+Total Fuel Consumption: 88 Liters
+Cumulative total percentage of waste collected from all valid locations: 368%
+Total Waste Collected: 1565kg

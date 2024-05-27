@@ -1,0 +1,51 @@
+
+---------------------------------------------------
+
+Non-Optimized Route - Fixed Shortest Path Algorithm
+
+---------------------------------------------------
+
+Details of Non-Optimized Route
+1. Waste at location must be >=40% to be visited and collected
+2. Distance from Waste Station to location must be <= 30km
+3. Time taken must be within 12 hours, or else location will not be visited
+
+Current Waste Levels: 
+Waste at Location 1: 88%
+Waste at Location 2: 0%
+Waste at Location 3: 69%
+Waste at Location 4: 76%
+Waste at Location 5: 80%
+Waste at Location 6: 55%
+Waste at Location 7: 21%
+Waste in KG at Location 1: 440kg
+Waste in KG at Location 2: 0kg
+Waste in KG at Location 3: 345kg
+Waste in KG at Location 4: 380kg
+Waste in KG at Location 5: 400kg
+Waste in KG at Location 6: 275kg
+Waste in KG at Location 7: 105kg
+
+Shortest Path from Waste Station to each location:
+Waste Station to Location 1: 3 km 	Path: Waste Station -> Location 1
+Waste Station to Location 3: 9 km 	Path: Waste Station -> Location 1 -> Location 3
+Waste Station to Location 4: 18 km 	Path: Waste Station -> Location 1 -> Location 3 -> Location 2 -> Location 4
+Waste Station to Location 5: 29 km 	Path: Waste Station -> Location 1 -> Location 3 -> Location 2 -> Location 4 -> Location 3 -> Location 6 -> Location 5
+Waste Station to Location 6: 22 km 	Path: Waste Station -> Location 1 -> Location 3 -> Location 2 -> Location 4 -> Location 3 -> Location 6
+
+**Total time exceeds 12 hours, refer to the locations below that can be visited within 12 hours**
+
+Locations that can be visited within 12 hours:
+Location 1
+Location 3
+Location 4
+Location 5
+
+Driver Wage for this trip: 240 MYR
+
+Total Distance for Visited Locations: 81 km
+Total Cost: 202.5 MYR
+Total Time: 16.2 hours
+Total Fuel Consumption: 162 Liters
+Cumulative total percentage of waste collected from all valid locations: 368%
+Total Waste Collected: 1840kg
